@@ -109,14 +109,21 @@
         self.smallView.hidden = YES;
         [self.shapeLayer removeFromSuperlayer];
         self.shapeLayer = nil;
-    }else if (dictace > 0 && self.smallView.hidden == NO) {
+    } else {
         //        当有圆心距离，且圆心距离不大，才需要展示
+        self.smallView.hidden = NO;
         self.shapeLayer.path = [self circleWithBigCircleView:self withSmallCircleView:self.smallView].CGPath;
+    }
+    if ([self.delegate respondsToSelector:@selector(gooBadgeButton:movingWithPoint:inDragDistance:)]) {
+        [self.delegate gooBadgeButton:self movingWithPoint:point inDragDistance:!(tempRadius < 5)];
     }
     
     //    手指抬起时，还原
     if (pan.state == UIGestureRecognizerStateEnded) {
         if (tempRadius < 5) {
+            if ([self.delegate respondsToSelector:@selector(gooBadgeButtonWillDisappear:)]) {
+                [self.delegate gooBadgeButtonWillDisappear:self];
+            }
             //            展示动画
             UIImageView *imageView = [[UIImageView alloc]initWithFrame:self.bounds];
             NSMutableArray *arrM = [NSMutableArray array];
@@ -135,13 +142,22 @@
             //            延时0.4秒，把视图删除
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 [self removeFromSuperview];
+                if ([self.delegate respondsToSelector:@selector(gooBadgeButtonDidDisappear:)]) {
+                    [self.delegate gooBadgeButtonDidDisappear:self];
+                }
             });
         }else {
             [self.shapeLayer removeFromSuperlayer];
             self.shapeLayer = nil;
+            if ([self.delegate respondsToSelector:@selector(gooBadgeButtonWillResumePosition:)]) {
+                [self.delegate gooBadgeButtonWillResumePosition:self];
+            }
             [UIView animateWithDuration:0.35 delay:0 usingSpringWithDamping:0.2 initialSpringVelocity:0 options:UIViewAnimationOptionCurveLinear animations:^{
                 self.center = self.smallView.center;
             } completion:^(BOOL finished) {
+                if ([self.delegate respondsToSelector:@selector(gooBadgeButtonDidResumePosition:)]) {
+                    [self.delegate gooBadgeButtonDidResumePosition:self];
+                }
             }];
             self.smallView.hidden = NO;
         }
