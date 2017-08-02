@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FC600421F31BAD200F3928D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC600411F31BAD200F3928D /* main.m */; };
+		2FC600451F31BAD200F3928D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC600441F31BAD200F3928D /* AppDelegate.m */; };
+		2FC600481F31BAD200F3928D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC600471F31BAD200F3928D /* ViewController.m */; };
+		2FC6004B1F31BAD200F3928D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC600491F31BAD200F3928D /* Main.storyboard */; };
+		2FC6004D1F31BAD200F3928D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6004C1F31BAD200F3928D /* Assets.xcassets */; };
+		2FC600501F31BAD200F3928D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6004E1F31BAD200F3928D /* LaunchScreen.storyboard */; };
+		2FC6005B1F31BAD200F3928D /* GooBadgeButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC6005A1F31BAD200F3928D /* GooBadgeButtonDemoTests.m */; };
+		2FC600661F31BAD200F3928D /* GooBadgeButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC600651F31BAD200F3928D /* GooBadgeButtonDemoUITests.m */; };
+		2FC600761F31BAF700F3928D /* GooBadgeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FC600751F31BAF700F3928D /* GooBadgeButton.m */; };
+		2FC600801F31BC7300F3928D /* GooBadgeButton1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC600781F31BC7300F3928D /* GooBadgeButton1.jpg */; };
+		2FC600811F31BC7300F3928D /* GooBadgeButton2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC600791F31BC7300F3928D /* GooBadgeButton2.jpg */; };
+		2FC600821F31BC7300F3928D /* GooBadgeButton3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6007A1F31BC7300F3928D /* GooBadgeButton3.jpg */; };
+		2FC600831F31BC7300F3928D /* GooBadgeButton4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6007B1F31BC7300F3928D /* GooBadgeButton4.jpg */; };
+		2FC600841F31BC7300F3928D /* GooBadgeButton5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6007C1F31BC7300F3928D /* GooBadgeButton5.jpg */; };
+		2FC600851F31BC7300F3928D /* GooBadgeButton6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6007D1F31BC7300F3928D /* GooBadgeButton6.jpg */; };
+		2FC600861F31BC7300F3928D /* GooBadgeButton7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6007E1F31BC7300F3928D /* GooBadgeButton7.jpg */; };
+		2FC600871F31BC7300F3928D /* GooBadgeButton8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FC6007F1F31BC7300F3928D /* GooBadgeButton8.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FC600571F31BAD200F3928D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC600351F31BAD100F3928D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC6003C1F31BAD200F3928D;
+			remoteInfo = GooBadgeButtonDemo;
+		};
+		2FC600621F31BAD200F3928D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FC600351F31BAD100F3928D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FC6003C1F31BAD200F3928D;
+			remoteInfo = GooBadgeButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FC6003D1F31BAD200F3928D /* GooBadgeButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GooBadgeButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC600411F31BAD200F3928D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2FC600431F31BAD200F3928D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2FC600441F31BAD200F3928D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2FC600461F31BAD200F3928D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2FC600471F31BAD200F3928D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2FC6004A1F31BAD200F3928D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2FC6004C1F31BAD200F3928D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FC6004F1F31BAD200F3928D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2FC600511F31BAD200F3928D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC600561F31BAD200F3928D /* GooBadgeButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooBadgeButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC6005A1F31BAD200F3928D /* GooBadgeButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooBadgeButtonDemoTests.m; sourceTree = "<group>"; };
+		2FC6005C1F31BAD200F3928D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC600611F31BAD200F3928D /* GooBadgeButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GooBadgeButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FC600651F31BAD200F3928D /* GooBadgeButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GooBadgeButtonDemoUITests.m; sourceTree = "<group>"; };
+		2FC600671F31BAD200F3928D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC600741F31BAF700F3928D /* GooBadgeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooBadgeButton.h; sourceTree = "<group>"; };
+		2FC600751F31BAF700F3928D /* GooBadgeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooBadgeButton.m; sourceTree = "<group>"; };
+		2FC600781F31BC7300F3928D /* GooBadgeButton1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GooBadgeButton1.jpg; sourceTree = "<group>"; };
+		2FC600791F31BC7300F3928D /* GooBadgeButton2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GooBadgeButton2.jpg; sourceTree = "<group>"; };
+		2FC6007A1F31BC7300F3928D /* GooBadgeButton3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GooBadgeButton3.jpg; sourceTree = "<group>"; };
+		2FC6007B1F31BC7300F3928D /* GooBadgeButton4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GooBadgeButton4.jpg; sourceTree = "<group>"; };
+		2FC6007C1F31BC7300F3928D /* GooBadgeButton5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GooBadgeButton5.jpg; sourceTree = "<group>"; };
+		2FC6007D1F31BC7300F3928D /* GooBadgeButton6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GooBadgeButton6.jpg; sourceTree = "<group>"; };
+		2FC6007E1F31BC7300F3928D /* GooBadgeButton7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GooBadgeButton7.jpg; sourceTree = "<group>"; };
+		2FC6007F1F31BC7300F3928D /* GooBadgeButton8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GooBadgeButton8.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FC6003A1F31BAD200F3928D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC600531F31BAD200F3928D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC6005E1F31BAD200F3928D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FC600341F31BAD100F3928D = {
+			isa = PBXGroup;
+			children = (
+				2FC6003F1F31BAD200F3928D /* GooBadgeButtonDemo */,
+				2FC600591F31BAD200F3928D /* GooBadgeButtonDemoTests */,
+				2FC600641F31BAD200F3928D /* GooBadgeButtonDemoUITests */,
+				2FC6003E1F31BAD200F3928D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FC6003E1F31BAD200F3928D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FC6003D1F31BAD200F3928D /* GooBadgeButtonDemo.app */,
+				2FC600561F31BAD200F3928D /* GooBadgeButtonDemoTests.xctest */,
+				2FC600611F31BAD200F3928D /* GooBadgeButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FC6003F1F31BAD200F3928D /* GooBadgeButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2FC600731F31BAE700F3928D /* GooBadgeButton */,
+				2FC600431F31BAD200F3928D /* AppDelegate.h */,
+				2FC600441F31BAD200F3928D /* AppDelegate.m */,
+				2FC600461F31BAD200F3928D /* ViewController.h */,
+				2FC600471F31BAD200F3928D /* ViewController.m */,
+				2FC600491F31BAD200F3928D /* Main.storyboard */,
+				2FC6004C1F31BAD200F3928D /* Assets.xcassets */,
+				2FC6004E1F31BAD200F3928D /* LaunchScreen.storyboard */,
+				2FC600511F31BAD200F3928D /* Info.plist */,
+				2FC600401F31BAD200F3928D /* Supporting Files */,
+			);
+			path = GooBadgeButtonDemo;
+			sourceTree = "<group>";
+		};
+		2FC600401F31BAD200F3928D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2FC600411F31BAD200F3928D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2FC600591F31BAD200F3928D /* GooBadgeButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC6005A1F31BAD200F3928D /* GooBadgeButtonDemoTests.m */,
+				2FC6005C1F31BAD200F3928D /* Info.plist */,
+			);
+			path = GooBadgeButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		2FC600641F31BAD200F3928D /* GooBadgeButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FC600651F31BAD200F3928D /* GooBadgeButtonDemoUITests.m */,
+				2FC600671F31BAD200F3928D /* Info.plist */,
+			);
+			path = GooBadgeButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+		2FC600731F31BAE700F3928D /* GooBadgeButton */ = {
+			isa = PBXGroup;
+			children = (
+				2FC600771F31BC7300F3928D /* 爆炸_gif */,
+				2FC600741F31BAF700F3928D /* GooBadgeButton.h */,
+				2FC600751F31BAF700F3928D /* GooBadgeButton.m */,
+			);
+			path = GooBadgeButton;
+			sourceTree = "<group>";
+		};
+		2FC600771F31BC7300F3928D /* 爆炸_gif */ = {
+			isa = PBXGroup;
+			children = (
+				2FC600781F31BC7300F3928D /* GooBadgeButton1.jpg */,
+				2FC600791F31BC7300F3928D /* GooBadgeButton2.jpg */,
+				2FC6007A1F31BC7300F3928D /* GooBadgeButton3.jpg */,
+				2FC6007B1F31BC7300F3928D /* GooBadgeButton4.jpg */,
+				2FC6007C1F31BC7300F3928D /* GooBadgeButton5.jpg */,
+				2FC6007D1F31BC7300F3928D /* GooBadgeButton6.jpg */,
+				2FC6007E1F31BC7300F3928D /* GooBadgeButton7.jpg */,
+				2FC6007F1F31BC7300F3928D /* GooBadgeButton8.jpg */,
+			);
+			path = "爆炸_gif";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FC6003C1F31BAD200F3928D /* GooBadgeButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC6006A1F31BAD200F3928D /* Build configuration list for PBXNativeTarget "GooBadgeButtonDemo" */;
+			buildPhases = (
+				2FC600391F31BAD200F3928D /* Sources */,
+				2FC6003A1F31BAD200F3928D /* Frameworks */,
+				2FC6003B1F31BAD200F3928D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooBadgeButtonDemo;
+			productName = GooBadgeButtonDemo;
+			productReference = 2FC6003D1F31BAD200F3928D /* GooBadgeButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FC600551F31BAD200F3928D /* GooBadgeButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC6006D1F31BAD200F3928D /* Build configuration list for PBXNativeTarget "GooBadgeButtonDemoTests" */;
+			buildPhases = (
+				2FC600521F31BAD200F3928D /* Sources */,
+				2FC600531F31BAD200F3928D /* Frameworks */,
+				2FC600541F31BAD200F3928D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC600581F31BAD200F3928D /* PBXTargetDependency */,
+			);
+			name = GooBadgeButtonDemoTests;
+			productName = GooBadgeButtonDemoTests;
+			productReference = 2FC600561F31BAD200F3928D /* GooBadgeButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FC600601F31BAD200F3928D /* GooBadgeButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FC600701F31BAD200F3928D /* Build configuration list for PBXNativeTarget "GooBadgeButtonDemoUITests" */;
+			buildPhases = (
+				2FC6005D1F31BAD200F3928D /* Sources */,
+				2FC6005E1F31BAD200F3928D /* Frameworks */,
+				2FC6005F1F31BAD200F3928D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FC600631F31BAD200F3928D /* PBXTargetDependency */,
+			);
+			name = GooBadgeButtonDemoUITests;
+			productName = GooBadgeButtonDemoUITests;
+			productReference = 2FC600611F31BAD200F3928D /* GooBadgeButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FC600351F31BAD100F3928D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = sungrow;
+				TargetAttributes = {
+					2FC6003C1F31BAD200F3928D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					2FC600551F31BAD200F3928D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FC6003C1F31BAD200F3928D;
+					};
+					2FC600601F31BAD200F3928D = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2FC6003C1F31BAD200F3928D;
+					};
+				};
+			};
+			buildConfigurationList = 2FC600381F31BAD100F3928D /* Build configuration list for PBXProject "GooBadgeButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FC600341F31BAD100F3928D;
+			productRefGroup = 2FC6003E1F31BAD200F3928D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FC6003C1F31BAD200F3928D /* GooBadgeButtonDemo */,
+				2FC600551F31BAD200F3928D /* GooBadgeButtonDemoTests */,
+				2FC600601F31BAD200F3928D /* GooBadgeButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FC6003B1F31BAD200F3928D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC600871F31BC7300F3928D /* GooBadgeButton8.jpg in Resources */,
+				2FC600851F31BC7300F3928D /* GooBadgeButton6.jpg in Resources */,
+				2FC600501F31BAD200F3928D /* LaunchScreen.storyboard in Resources */,
+				2FC600841F31BC7300F3928D /* GooBadgeButton5.jpg in Resources */,
+				2FC600831F31BC7300F3928D /* GooBadgeButton4.jpg in Resources */,
+				2FC600801F31BC7300F3928D /* GooBadgeButton1.jpg in Resources */,
+				2FC600811F31BC7300F3928D /* GooBadgeButton2.jpg in Resources */,
+				2FC600821F31BC7300F3928D /* GooBadgeButton3.jpg in Resources */,
+				2FC600861F31BC7300F3928D /* GooBadgeButton7.jpg in Resources */,
+				2FC6004D1F31BAD200F3928D /* Assets.xcassets in Resources */,
+				2FC6004B1F31BAD200F3928D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC600541F31BAD200F3928D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC6005F1F31BAD200F3928D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FC600391F31BAD200F3928D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC600481F31BAD200F3928D /* ViewController.m in Sources */,
+				2FC600451F31BAD200F3928D /* AppDelegate.m in Sources */,
+				2FC600421F31BAD200F3928D /* main.m in Sources */,
+				2FC600761F31BAF700F3928D /* GooBadgeButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC600521F31BAD200F3928D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC6005B1F31BAD200F3928D /* GooBadgeButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FC6005D1F31BAD200F3928D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC600661F31BAD200F3928D /* GooBadgeButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FC600581F31BAD200F3928D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC6003C1F31BAD200F3928D /* GooBadgeButtonDemo */;
+			targetProxy = 2FC600571F31BAD200F3928D /* PBXContainerItemProxy */;
+		};
+		2FC600631F31BAD200F3928D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FC6003C1F31BAD200F3928D /* GooBadgeButtonDemo */;
+			targetProxy = 2FC600621F31BAD200F3928D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2FC600491F31BAD200F3928D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC6004A1F31BAD200F3928D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2FC6004E1F31BAD200F3928D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2FC6004F1F31BAD200F3928D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2FC600681F31BAD200F3928D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FC600691F31BAD200F3928D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FC6006B1F31BAD200F3928D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooBadgeButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sungrow.com.GooBadgeButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2FC6006C1F31BAD200F3928D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GooBadgeButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sungrow.com.GooBadgeButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2FC6006E1F31BAD200F3928D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GooBadgeButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sungrow.com.GooBadgeButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooBadgeButtonDemo.app/GooBadgeButtonDemo";
+			};
+			name = Debug;
+		};
+		2FC6006F1F31BAD200F3928D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GooBadgeButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sungrow.com.GooBadgeButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GooBadgeButtonDemo.app/GooBadgeButtonDemo";
+			};
+			name = Release;
+		};
+		2FC600711F31BAD200F3928D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GooBadgeButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sungrow.com.GooBadgeButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GooBadgeButtonDemo;
+			};
+			name = Debug;
+		};
+		2FC600721F31BAD200F3928D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GooBadgeButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sungrow.com.GooBadgeButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GooBadgeButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC600381F31BAD100F3928D /* Build configuration list for PBXProject "GooBadgeButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC600681F31BAD200F3928D /* Debug */,
+				2FC600691F31BAD200F3928D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FC6006A1F31BAD200F3928D /* Build configuration list for PBXNativeTarget "GooBadgeButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC6006B1F31BAD200F3928D /* Debug */,
+				2FC6006C1F31BAD200F3928D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FC6006D1F31BAD200F3928D /* Build configuration list for PBXNativeTarget "GooBadgeButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC6006E1F31BAD200F3928D /* Debug */,
+				2FC6006F1F31BAD200F3928D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2FC600701F31BAD200F3928D /* Build configuration list for PBXNativeTarget "GooBadgeButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FC600711F31BAD200F3928D /* Debug */,
+				2FC600721F31BAD200F3928D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2FC600351F31BAD100F3928D /* Project object */;
+}
