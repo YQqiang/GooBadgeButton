@@ -4,7 +4,7 @@ Goo Badge Button view iOS
 <img src="https://github.com/YQqiang/GooBadgeButton/blob/master/GooBadgeButton.gif" alt="GooBadgeButton.gif" width="320"> 
 
 ### 代理方法
-```
+```Objective-C
 #pragma mark - GooBadgeButtonDelegate
 - (void)gooBadgeButtonWillResumePosition:(GooBadgeButton *)gooBadgeButton {
     NSLog(@"--------- 将要恢复位置");
